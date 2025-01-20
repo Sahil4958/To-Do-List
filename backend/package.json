@@ -1,0 +1,30 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "TO do  list with react and node js",
+  "keywords": [
+    "Node",
+    "+",
+    "React"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "license": "ISC",
+  "author": "Sahil Vaidya",
+  "type": "module",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon server.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "nodemon": "^3.1.9"
+  }
+}
